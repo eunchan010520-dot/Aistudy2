@@ -1,0 +1,43 @@
+{
+  "_comment": "칼로리 관리 기준값. 수정하려면 대화로 '체중 56으로 바꿔줘'라고 말하면 됩니다.",
+  "updated_at": "2026-08-25",
+
+  "body": {
+    "sex": "female",
+    "age": 35,
+    "height_cm": 170,
+    "weight_kg": 55
+  },
+
+  "calculation": {
+    "formula": "Mifflin-St Jeor",
+    "bmr_kcal": 1277,
+    "activity_factor": 1.55,
+    "activity_note": "활동량 입력 없이 평균(보통 활동) 계수 고정",
+    "tdee_kcal": 1980,
+    "goal": "maintain",
+    "goal_adjustment_kcal": 0,
+    "target_kcal": 1980,
+    "bmi": 19.0
+  },
+
+  "macro_target": {
+    "ratio": "탄 50% / 단 20% / 지 30%",
+    "carb_g": 248,
+    "protein_g": 99,
+    "fat_g": 66
+  },
+
+  "tolerance": {
+    "daily_kcal_ok_band_pct": 10,
+    "note": "목표 대비 ±10% 이내면 '적정'으로 판정"
+  },
+
+  "rules": {
+    "rice_bowl_g": 210,
+    "rice_bowl_kcal": 300,
+    "estimate_as_range": true,
+    "range_spread_pct": 15,
+    "show_confidence": true
+  }
+}
